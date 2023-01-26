@@ -22,10 +22,10 @@ void draw()
   //it is a conditional execution
   if(_cx > width) //if the current position of the circle is...
   { 
-    _cx = 0.0; 
+    _cx = 0.0; //set at zero
   }
   else
   {
-    _cx = _cx + 1;
+    _cx = _cx + 1; //else increase with one
   }
 }
